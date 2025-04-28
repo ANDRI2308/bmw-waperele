@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обои на телефон BMW</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .wallpapers-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .wallpaper {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .wallpaper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .wallpaper a {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .wallpaper a:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Обои на телефон BMW</h1>
+    <p>Выберите обои для вашего телефона с логотипом и автомобилями BMW!</p>
+</header>
+
+<div class="wallpapers-container">
+    <div class="wallpaper">
+        <img src="https://www.bmwblog.com/wp-content/uploads/2021/05/bmw-i4-5.jpg" alt="BMW Wallpaper 1">
+        <a href="https://www.bmwblog.com/wp-content/uploads/2021/05/bmw-i4-5.jpg" download>Скачать</a>
+    </div>
+    <div class="wallpaper">
+        <img src="https://www.bmwblog.com/wp-content/uploads/2020/06/2021-bmw-m3-g80-1024x682.jpg" alt="BMW Wallpaper 2">
+        <a href="https://www.bmwblog.com/wp-content/uploads/2020/06/2021-bmw-m3-g80-1024x682.jpg" download>Скачать</a>
+    </div>
+    <div class="wallpaper">
+        <img src="https://cdn.motor1.com/images/mgl/RWR4q/s1/2020-bmw-x6-m.jpg" alt="BMW Wallpaper 3">
+        <a href="https://cdn.motor1.com/images/mgl/RWR4q/s1/2020-bmw-x6-m.jpg" download>Скачать</a>
+    </div>
+    <div class="wallpaper">
+        <img src="https://www.bmwblog.com/wp-content/uploads/2020/04/2021-bmw-4-series-coupe.jpg" alt="BMW Wallpaper 4">
+        <a href="https://www.bmwblog.com/wp-content/uploads/2020/04/2021-bmw-4-series-coupe.jpg" download>Скачать</a>
+    </div>
+</div>
+
+</body>
+</html>
